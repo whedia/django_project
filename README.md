@@ -12,7 +12,7 @@ $ https://github.com/whedia/Django_project.git
 
 2 - go to the project folder:
 
-$ cd Django_project
+$ cd insta_project
 
 3- Then run the commands below:
 
