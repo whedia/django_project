@@ -1,6 +1,6 @@
 # Django_project
 
-This is an CRUD app made with python Django.
+This is an CRUD app made with python Django 2.2 version.
 
 You can add a post (name, description and image), edit it and delete it.
 
@@ -10,7 +10,7 @@ To get it running on your local machine, follow the steps below:
 
 $ https://github.com/whedia/Django_project.git
 
-2 - go to the project folder
+2 - go to the project folder:
 
 $ cd Django_project
 
