@@ -8,11 +8,11 @@ To get it running on your local machine, follow the steps below:
 
 1 - Run the commands below in your terminal:
 
-$ https://github.com/whedia/Django_project.git
+$ git clone https://github.com/whedia/Django_project.git
 
 2 - go to the project folder:
 
-$ cd insta_project
+$ cd Django_project
 
 3- Then run the commands below:
 
