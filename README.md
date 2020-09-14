@@ -20,6 +20,8 @@ $ pip install django==2.2
 
 $ pip install pillow
 
+$ pip install django-widget-tweaks 
+
 4 - Run the development server with
 
 $ python manage.py runserver
