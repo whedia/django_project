@@ -6,24 +6,24 @@ You can add a post (name, description and image), edit it and delete it.
 
 To get it running on your local machine, follow the steps below:
 
-1 - Run the commands below in your terminal:
+1 - get python 3.8.5 https://www.python.org/downloads/ 
+
+2 - Run the commands below in your terminal:
 
 $ git clone https://github.com/whedia/Django_project.git
 
-2 - go to the repository folder:
+3 - go to the repository folder:
 
 $ cd Django_project
 
-3- Run the command below:
+4- Run the command below:
 
-$ pip install -r requirements.txt
-
-4 - go to the project folder:
-
-$ cd insta_project
+$ pip install -r requirements.txt on windows
+$ pip3 install -r requirements.txt on windows
 
 5 - Run the development server with:
 
-$ python manage.py runserver
+$ python manage.py runserver on windows
+$ python3 manage.py runserver on linux
 
 6 - Launch your browser and navigate to http://localhost:8000/
