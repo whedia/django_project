@@ -1,5 +1,9 @@
 # Django_project
 
+This is an CRUD app made with python Django.
+
+You can add a post (name, description and image), edit it and delete it.
+
 To get it running on your local machine, follow the steps below:
 
 1 - Run the commands below in your terminal:
