@@ -16,23 +16,43 @@
   <h3 class="round3" style="text-align:center;">The best 2020 football players</h3>
 </div>
 <div style="text-align:center;">
-  <a><button type="button" class="btn btn-success"> add</span></button></a>
+  <a href="/post"><button type="button" class="btn btn-success"> add</span></button></a>
 </div>
 
   {% for post in object_list %}
 <div class="d-flex-maker">
   <div class="card" style="width: 20rem;">
     <div class="card-body">
-      <h5 class="card-title">{{ post.title }}</h5>
-      <img class="card-img-top" src="{{ post.cover.url}}" alt="{{ post.title }}">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a><button type="button" class="btn btn-info">edit</button></a>
-      <a> <button type="button" class="btn btn-danger">delete</button></a>
+      
+      <button type="button" class="collapsible">{{ post.first_name }} {{ post.last_name }}</button>
+      
+      <div class="content">
+        <img class="card-img-top" src="{{ post.cover.url}}" alt="{{ post.first_name }}">
+        <p class="card-text">{{ post.description}}</p>
+        <a href="/edit"><button type="button" class="btn btn-info">edit</button></a>
+        <a href="/delete"> <button type="button" class="btn btn-danger">delete</button></a>
+      </div>
     </div>
   </div>
 </div>
   {% endfor %}
  </div>
 {% endblock %}
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script> <!--Le code javascrip pour de collapse des card-->
 </body>
 </html>                                                         
