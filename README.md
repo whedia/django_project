@@ -10,8 +10,14 @@ $ https://github.com/whedia/Django_project.git
 
 $ cd Django_project
 
-3 - Run the development server with
+3- Then run the commands below:
+
+$ pip install django==2.2
+
+$ pip install pilow
+
+4 - Run the development server with
 
 $ python manage.py runserver
 
-4 - Launch your browser and navigate to http://localhost:8000/
+5 - Launch your browser and navigate to http://localhost:8000/
