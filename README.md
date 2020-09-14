@@ -14,7 +14,7 @@ $ cd Django_project
 
 $ pip install django==2.2
 
-$ pip install pilow
+$ pip install pillow
 
 4 - Run the development server with
 
