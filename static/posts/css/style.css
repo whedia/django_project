@@ -1,3 +1,12 @@
+/*BODY*/
+
+body{
+  background-image: url("../img/backimage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
 /*HOME*/
 
 .list-group {
@@ -7,12 +16,11 @@ h1{
   color: red;
 }
 
-.round3 {
-  background-color: turquoise;
-}
 
 h3 {
-  font-size: 50px;
+  font-size: 60px;
+  color: #eee;
+  text-shadow: #E2CE74;
 }
 
 .d-flex-maker {
@@ -24,8 +32,8 @@ h3 {
 }
 
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: #7f8c8d;
+  color: white;
   cursor: pointer;
   padding: 15px;
   width: 100%;
@@ -36,7 +44,7 @@ h3 {
 }
 
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #E2CE74;
 }
 
 .content {
@@ -58,4 +66,14 @@ h3 {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+
 /*POST*/
+
+.card1 {
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
