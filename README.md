@@ -10,7 +10,7 @@ To get it running on your local machine, follow the steps below:
 
 $ https://github.com/whedia/Django_project.git
 
-2 -
+2 - go to the project folder
 
 $ cd Django_project
 
