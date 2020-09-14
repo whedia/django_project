@@ -1,0 +1,20 @@
+
+.list-group {
+  background-color: gray;
+}
+h1{
+  color: red;
+}
+
+h3 {
+  font-size: 50px;
+
+}
+
+.d-flex-maker {
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}

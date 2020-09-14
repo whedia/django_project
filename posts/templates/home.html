@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+ <title>FootballBook</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'posts/css/style.css' %}" type="text/css" media="screen">
+</head>
+
+<body>
+{% block content %}
+
+<div>
+  <h3 class="round3" style="text-align:center;">The best 2020 football players</h3>
+</div>
+<div style="text-align:center;">
+  <a><button type="button" class="btn btn-success"> add</span></button></a>
+</div>
+
+  {% for post in object_list %}
+<div class="d-flex-maker">
+  <div class="card" style="width: 20rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <img class="card-img-top" src="{{ post.cover.url}}" alt="{{ post.title }}">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a><button type="button" class="btn btn-info">edit</button></a>
+      <a> <button type="button" class="btn btn-danger">delete</button></a>
+    </div>
+  </div>
+</div>
+  {% endfor %}
+ </div>
+{% endblock %}
+</body>
+</html>                                                         
