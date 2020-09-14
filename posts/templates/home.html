@@ -15,24 +15,28 @@
 <div>
   <h3 class="round3" style="text-align:center;">FootballBook</h3>
 </div>
-<hr class="my-5 text-white border-top border-white" style="width:50%;text-align:center">
+<hr class="my-5 text-white border-top border-white" style="width:60%;text-align:center">
 <div style="text-align:center;">
-  <a href="/post"><button type="button" class="btn btn-success"> add post</span></button></a>
+  <a href="/post"><button type="button" class="btn btn-success"> ADD PLAYER</span></button></a>
 </div>
 <br><br>
 
   {% for post in object_list %}
 <div class="d-flex-maker">
-  <div class="card" style="width: 20rem;">
+  <div class="card" style="width: 60%;">
       
       <button type="button" class="collapsible">{{ post.first_name }} {{ post.last_name }}</button>
       
       <div class="content">
         <br>
         <img class="card-img-top" src="{{ post.cover.url}}" alt="{{ post.first_name }}">
-        <p class="card-text">{{ post.description}}</p>
+        <br>
+        <p class="card-text" style="text-align: justify;">{{ post.description}}</p>
+        <div style="text-align: center;">
         <a href="{{post.id}}/edit"><button type="button" class="btn btn-info">edit</button></a>
         <a href="/{{post.id}}/delete"> <button type="button" class="btn btn-danger">delete</button></a>
+      </div>
+      <br>
       </div>
   </div>
 </div>

@@ -1,3 +1,3 @@
-pip install django==2.2
-pip install pillow
-pip install django-widget-tweaksgit 
+django==2.2
+pillow
+django-widget-tweaks

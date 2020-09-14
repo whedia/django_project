@@ -44,11 +44,12 @@ h3 {
 }
 
 .active, .collapsible:hover {
-  background-color: #E2CE74;
+  background-color: #34495e;
+font-weight: bold;
 }
 
 .content {
-  padding: 0 18px;
+  padding: 18px ;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
@@ -66,6 +67,10 @@ h3 {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+img {
+  size: 50px;
+}
+
 
 /*POST*/
 
@@ -76,4 +81,16 @@ h3 {
 
 .card-img-top {
   border-radius: 10px;
+}
+
+/*DELETE*/
+
+.d-flex-makerdelete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  align-items: center;
 }
