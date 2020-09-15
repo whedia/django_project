@@ -4,6 +4,10 @@ This is an CRUD app made with python Django 2.2 version.
 
 You can add a post (name, description and image), edit it and delete it.
 
+![alt text](https://github.com/whedia/Django_project/blob/master/static/posts/img/capture%20mobile.jpg)
+
+![alt text](https://github.com/whedia/Django_project/blob/master/static/posts/img/capture%20pc.jpg)
+
 To get it running on your local machine, follow the steps below:
 
 1 - get python 3.8.5 https://www.python.org/downloads/ 
