@@ -23,12 +23,31 @@ h3 {
   text-shadow: #E2CE74;
 }
 
+@media screen and (min-width: 600px) /*pour les ecran pc et tablette*/
+{
+  .d-flex-maker{
+    margin-right: 500px;
+    width: 30rem;
+  }
+  .smallmenu{
+    width: 80rem;
+  }
+  .content {
+    width: 50rem;
+    margin-right: 100px;
+  }
+  
+}
+
+
+/*HOMECARD*/
+
 .d-flex-maker {
   display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: center;
-    flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .collapsible {
@@ -45,7 +64,7 @@ h3 {
 
 .active, .collapsible:hover {
   background-color: #34495e;
-font-weight: bold;
+  font-weight: bold;
 }
 
 .content {
@@ -66,7 +85,6 @@ font-weight: bold;
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-
 
 /*POST*/
 
