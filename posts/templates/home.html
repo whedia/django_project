@@ -2,6 +2,7 @@
 {% load static %}
 <html>
 <head>
+  <link rel="shortcut icon" href="../../static/posts/img/ball.png" />
  <title>FootballBook</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +26,7 @@
 <div class="d-flex-maker">
   <div style="width: 60%; border-radius: 15px;">
       
-      <button type="button" class="collapsible" style="border-radius: 10px;">{{ post.first_name | title }} {{ post.last_name | title}}</button>
+      <button type="button" id="sidebarCollapse" class="collapsible" style="border-radius: 10px;">{{ post.first_name | title }} {{ post.last_name | title}}</button>
       
       <div class="content">
         <div><img style=" width: 40%; height: auto; border-radius: 15px; float: left; margin-right: 20px;" src="{{ post.cover.url}}" alt="{{ post.first_name }}"></div>
