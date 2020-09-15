@@ -12,10 +12,10 @@ body{
 .list-group {
   background-color: gray;
 }
+
 h1{
   color: red;
 }
-
 
 h3 {
   font-size: 60px;
@@ -67,10 +67,6 @@ font-weight: bold;
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-img {
-  size: 50px;
-}
-
 
 /*POST*/
 
@@ -81,6 +77,8 @@ img {
 
 .card-img-top {
   border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
 /*DELETE*/
@@ -93,4 +91,9 @@ img {
 
 .card-body {
   align-items: center;
+}
+
+p {
+  float: left;
+  
 }
